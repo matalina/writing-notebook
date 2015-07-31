@@ -21,6 +21,8 @@ elixir(function(mix) {
     mix.scripts([
         '../bower_components/jquery/dist/jquery.js',
         '../bower_components/foundation/js/vendor/fastclick.js',
+        '../bower_components/foundation/js/vendor/jquery.cookie.js',
+        '../bower_components/foundation/js/vendor/placeholder.js',
         '../bower_components/foundation/foundation.min.js',
         'crevasse/dependencies/jquery.caret.js',
         'crevasse/dependencies/jquery.scrollTo.min.js',
@@ -28,5 +30,7 @@ elixir(function(mix) {
         'crevasse/dependencies/rainbow-custom.min.js',
         'crevasse/lib/js/crevasse.js',
         'app.js'
-    ]);
+    ]).scripts([
+        '../bower_components/foundation/js/vendor/modernizr.js'
+    ],'public/js/modernizr.js');
 });

@@ -14,6 +14,10 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         \App\Console\Commands\Inspire::class,
+        \Matalina\Generators\Console\Commands\CreateNewInterface::class,
+        \Matalina\Generators\Console\Commands\CreateNewRepository::class,
+        \Matalina\Generators\Console\Commands\CreateNewModel::class,
+        \Matalina\Generators\Console\Commands\CreateNewRoute::class,
     ];
 
     /**

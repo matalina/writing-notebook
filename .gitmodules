@@ -1,0 +1,3 @@
+[submodule "moduels/my-generators"]
+	path = moduels/my-generators
+	url = git@github.com:matalina/my-l5-generators.git

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "626a52fe4a9285479fb79639f38ec47c",
+    "hash": "ee6b0f05c835c723cd553097f0b9b2ce",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -122,48 +122,6 @@
                 "preload"
             ],
             "time": "2015-06-28 21:39:13"
-        },
-        {
-            "name": "components/jquery",
-            "version": "2.1.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/jquery.git",
-                "reference": "7b1d1104656a092423fbfba13c5920e9bbba290c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/jquery/zipball/7b1d1104656a092423fbfba13c5920e9bbba290c",
-                "reference": "7b1d1104656a092423fbfba13c5920e9bbba290c",
-                "shasum": ""
-            },
-            "type": "component",
-            "extra": {
-                "component": {
-                    "scripts": [
-                        "jquery.js"
-                    ],
-                    "files": [
-                        "jquery.min.js",
-                        "jquery.min.map",
-                        "jquery-migrate.js",
-                        "jquery-migrate.min.js"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "John Resig",
-                    "email": "jeresig@gmail.com"
-                }
-            ],
-            "description": "jQuery JavaScript Library",
-            "homepage": "http://jquery.com",
-            "time": "2015-05-08 05:04:47"
         },
         {
             "name": "danielstjules/stringy",
@@ -2813,38 +2771,6 @@
                 "environment"
             ],
             "time": "2015-05-30 15:59:26"
-        },
-        {
-            "name": "zurb/foundation",
-            "version": "v5.5.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zurb/foundation.git",
-                "reference": "35851ec53c412af5e31b14636f28c248d0272577"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zurb/foundation/zipball/35851ec53c412af5e31b14636f28c248d0272577",
-                "reference": "35851ec53c412af5e31b14636f28c248d0272577",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "ZURB Inc."
-                }
-            ],
-            "description": "The most advanced responsive front-end framework in the world.",
-            "homepage": "http://foundation.zurb.com",
-            "keywords": [
-                "foundation",
-                "scss"
-            ],
-            "time": "2015-04-30 17:03:48"
         }
     ],
     "packages-dev": [

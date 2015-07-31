@@ -1,4 +1,6 @@
 <?php
+$namespace = 'App\Http\Routes';
+
 return [
     /**
      * Put all your route binder classes here.

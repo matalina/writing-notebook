@@ -14,9 +14,7 @@
         "barryvdh/laravel-ide-helper": "^2.0",
         "sebastian/diff": "^1.3",
         "mnapoli/front-yaml": "^1.5",
-        "zurb/foundation": "^5.5",
         "ghunti/highcharts-php": "^3.0",
-        "components/jquery": "^2.1",
         "thomaswelton/gravatarlib": "^0.1.0",
         "laravel/socialite": "^2.0"
     },

@@ -23,7 +23,7 @@ elixir(function(mix) {
         '../bower_components/foundation/js/vendor/fastclick.js',
         '../bower_components/foundation/js/vendor/jquery.cookie.js',
         '../bower_components/foundation/js/vendor/placeholder.js',
-        '../bower_components/foundation/foundation.min.js',
+        '../bower_components/foundation/js/foundation.min.js',
         'crevasse/dependencies/jquery.caret.js',
         'crevasse/dependencies/jquery.scrollTo.min.js',
         'crevasse/dependencies/marked.js',

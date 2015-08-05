@@ -5834,7 +5834,7 @@ namespace {
          * @param array $cookies The COOKIE parameters
          * @param array $files The FILES parameters
          * @param array $server The SERVER parameters
-         * @param string $content The raw body data
+         * @param string|resource $content The raw body data
          * @api 
          * @static 
          */
@@ -8542,7 +8542,7 @@ namespace {
          * @param array $cookies The COOKIE parameters
          * @param array $files The FILES parameters
          * @param array $server The SERVER parameters
-         * @param string $content The raw body data
+         * @param string|resource $content The raw body data
          * @api 
          * @static 
          */

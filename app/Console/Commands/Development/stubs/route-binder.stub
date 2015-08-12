@@ -1,0 +1,20 @@
+<?php namespace App\Http\Routes;
+
+use LaravelBA\RouteBinder\RouteBinder;
+use Illuminate\Contracts\Routing\Registrar;
+
+class DummyClass implements RouteBinder
+{
+
+    /**
+     * The $router instance is the same as what you'd get
+     * when you use the Route facade! No change there ;-)
+     */
+    public function bind(Registrar $router)
+    {
+        $router->any('dummy-route',[
+            'as' => 'dummyRoute.dummyRoute',
+            'uses' => 'App\Http\Controllers\DummyController@dummyMethod'
+        ]);
+    }
+}

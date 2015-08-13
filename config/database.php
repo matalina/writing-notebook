@@ -48,7 +48,7 @@ return [
 
         'sqlite' => [
             'driver'   => 'sqlite',
-            'database' => storage_path('notebook.db'),
+            'database' => storage_path(env('SQLITE_FILE','notebook.db')),
             'prefix'   => '',
         ],
 

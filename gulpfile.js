@@ -13,17 +13,31 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass([
-        'app.scss',
-        '../js/crevasse/dependencies/solarized-light.css',
-        '../js/crevasse/lib/css/crevasse.css'
+        'app.scss'
     ]);
 
     mix.scripts([
-        '../bower_components/jquery/dist/jquery.js',
-        '../bower_components/foundation/js/vendor/fastclick.js',
-        '../bower_components/foundation/js/vendor/jquery.cookie.js',
-        '../bower_components/foundation/js/vendor/placeholder.js',
-        '../bower_components/foundation/js/foundation.min.js',
+        '../../../node_modules/jquery/dist/jquery.js',
+        '../../../node_modules/fastclick/lib/fastclick.js',
+        '../../../node_modules/jquery.cookie/jquery.cookie.js',
+        '../../../node_modules/jquery-placeholder/jquery.placeholder.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.abide.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.accordion.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.alert.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.clearing.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.dropdown.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.equalizer.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.interchange.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.joyride.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.magellan.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.offcanvas.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.orbit.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.reveal.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.slider.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.tab.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.tooltip.js',
+        '../../../node_modules/zurb-foundation-5/js/foundation/foundation.topbar.js',
         'crevasse/dependencies/jquery.caret.js',
         'crevasse/dependencies/jquery.scrollTo.min.js',
         'crevasse/dependencies/marked.js',
@@ -31,6 +45,6 @@ elixir(function(mix) {
         'crevasse/lib/js/crevasse.js',
         'app.js'
     ]).scripts([
-        '../bower_components/foundation/js/vendor/modernizr.js'
-    ],'public/js/modernizr.js');
+        '../../../node_modules/modernizr/modernizr.js'
+    ],'modernizr.js');
 });
